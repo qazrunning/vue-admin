@@ -4,7 +4,7 @@ const resolve = (dir) => path.join(__dirname, dir);
 module.exports ={
     publicPath: '/',//部署应用包的路径  单独根据项目讲解
     outputDir:'dist',//打包后输出的路径
-    assetsDir:'assets',//静态文件路径
+    assetsDir:'dist/assets',//静态文件路径
     // 本地服务器相关的配置
     devServer:{
         port: 9999,//端口号

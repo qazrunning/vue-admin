@@ -1,20 +1,33 @@
 <template>
   <div id="Layout">
-    <el-button>默认按钮</el-button>
-    <router-view></router-view>
+    <div class="left">
+      <layoutMenu></layoutMenu>
+    </div>
+    <div class="right">
+      <router-view></router-view>
+    </div>
+    
   </div>
 </template>
 
 <script>
+import layoutMenu from './menu.vue'
 export default {
   name: "Login",
+  components:{
+    layoutMenu
+  }
 };
 </script>
 
-<style>
+<style lang='scss'>
 #Layout {
   width: 100%;
   height: 100%;
   background-color: rgb(163, 223, 95);
+  display: flex;
+  .left{
+    width: 200px;
+  }
 }
 </style>
