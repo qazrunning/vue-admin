@@ -18,7 +18,6 @@ files.keys().forEach(key => {
                 routes.push(item)
             }
         })
-        // routes.push(...files(key).default)
     }
 
 })

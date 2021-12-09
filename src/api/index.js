@@ -57,6 +57,7 @@ const deleter = (url, data) => {
     });
 };
 const post = (url, data) => {
+    // 可能需要qs 进行json的转换
     data = {
         ...data,
         headers: {

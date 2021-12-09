@@ -23,7 +23,7 @@ export default {
 <style lang='scss'>
 #Layout {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: rgb(163, 223, 95);
   display: flex;
   .left{
