@@ -12,10 +12,10 @@ module.exports ={
         https: false,  // 是否https
         // 代理，服务器。接口跨域用的
         proxy:{
+          //要结合env 使用 和环境有关
             // '/api':'http://localhost:4000'
-            '/api': {
-                target: 'http://localhost:4000',
-                pathRewrite: { '^/api': '' },
+            '/apis': {
+                target: 'http://124.222.89.187:6679',
               },
         }
     },

@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const serve = axios.create({
-    baseURL: 'http://localhost:9955',
+    baseURL: 'http://124.222.89.187:6679',
     timeout: 6 * (1000 * 60),
     withCredentials: true, //是否携带跨域凭证
     // headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'},
